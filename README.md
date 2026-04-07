@@ -1,40 +1,68 @@
 <div align="center">
-  <h1>Hi 👋, I'm Sushant</h1>
-  <p><strong>AI & Data Science Enthusiast | Software Developer | Hardware Explorer</strong></p>
+  <h1>Hi 👋, I'm Sushant Poudel </h1>
+  <p><strong>Computer Engineer | AI Researcher | Cybersecurity Specialist </strong></p>
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Building+Intelligent+Systems;Deep+Learning+%26+Data+Science;Exploring+DevOps+%26+Hardware;Always+Learning+New+Tech" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=AI+%26+Multi-Agent+Systems;Cybersecurity+%26+Edge+Computing;Two-Time+Hult+Prize+Finalist;Building+Offline-First+Robotics" alt="Typing SVG" />
 </div>
 
 ---
 
 ### 👨‍💻 About Me
-I am a passionate developer from Nepal focusing on **Data Science**, **Machine Learning**, and **Software Engineering**. I enjoy building data-driven solutions, analyzing complex systems, and exploring the intersection of software and hardware.
+I am an elite Computer Engineering student from Nepal specializing in **Artificial Intelligence, Cybersecurity, and Edge Computing architectures** . My focus is on solving complex architectural challenges through rapid prototyping, crisis engineering, and developing secure offline-first AI environments .
 
-- 🌱 Currently diving deeper into **Deep Learning**, **MLOps**, and **Scalable Architecture**.
-- 👯 Looking to collaborate on **Open Source** AI and Data projects.
-- 📫 Reach out to me: **[sushant.poudel2028@gmail.com](mailto:sushant.poudel2028@gmail.com)**
+- 🌍 **Global Recognition:** Two-time Hult Prize 1st Runner-up (2024 & 2025) and Aspire Leaders Global Finalist .
+- 🔬 **Current Research:** Engineering offline-first Robotic OS with RAG memory and LLM Agent Firewalls for sub-millisecond threat neutralization .
+- 🎓 **Education:** 7th Semester Computer Engineering at Nepal Engineering College (NEC) .
+- 📫 **Reach out to me:** **[sushant.poudel2028@gmail.com](mailto:sushant.poudel2028@gmail.com)** ---
+
+### 🏆 Global Leadership & Awards
+* **Hult Prize 1st Runner-Up (2024 & 2025):** Recognized in consecutive years for social entrepreneurship and highly innovative business models .
+* **Aspire Leaders Program Finalist (2025):** Selected from over 54,000 applicants for world-class leadership training by Harvard Business School faculty .
+* **Hackathon Veteran:** CoESS Cybersecurity Hackathon (Offensive Security) and NEC Ingegium Hackathon (Competitor & Core Volunteer) .
 
 ---
 
-### 🛠️ Tech Stack
+### 🔬 Research & Signature Projects
+| Project / Research | Domain | Description |
+| :--- | :--- | :--- |
+| **LLM Agent Firewall** | AI Security | Sub-millisecond offline inspection layer for multi-agent pipelines (100% overt prompt injection containment). |
+| **EmbodiedOS** | Robotics & Edge AI | Fully offline robotic OS using C++ hardware control and local LLMs to improve manipulation tasks. |
+| **GhostSignal** | Wi-Fi Sensing & Security | Disaster rescue system utilizing ESP32 Wi-Fi CSI to detect chest movements under rubble. |
+| **Autonomous Edge Agents** | Edge Computing | Privacy-first, completely offline multi-agent execution pipeline optimized for continuous code generation. |
+| **Arth-Sathi** | GenAI & FinTech | Generative AI financial analyst for NEPSE featuring an LSTM sentiment engine. |
 
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white) ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white) ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
-| **AI, ML & Data** | ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) |
-| **Backend & DB** | ![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-| **DevOps & Tools**| ![Git](https://img.shields.io/badge/-Git-F05033?style=flat-square&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![GitLab](https://img.shields.io/badge/-GitLab-181717?style=flat-square&logo=gitlab&logoColor=white) ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) |
-| **Hardware & Misc**| ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=arduino&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white) ![Cisco](https://img.shields.io/badge/-Cisco-049FD9?style=flat-square&logo=cisco&logoColor=white) ![Canva](https://img.shields.io/badge/-Canva-00C4CC?style=flat-square&logo=canva&logoColor=white) |
+---
+
+### 🛠️ Tech Stack & Certifications
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C">
+  <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
+  <br>
+  <img src="https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
+  <img src="https://img.shields.io/badge/-ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32">
+  <img src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino">
+</p>
+
+**Key Professional Certifications:**
+* **AI & Data:** IBM AI Engineering (13-Course), DeepLearning.AI Deep Learning Specialization .
+* **Cybersecurity & Cloud:** Google Cybersecurity Professional, IBM Cloud Computing Professional .
+* **Software:** Meta Full Stack Developer, Packt Flutter & Dart Complete Development .
 
 ---
 
 ### 📊 GitHub Data & Activity
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=sushant-poudel2028&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="GitHub Stats" height="180px" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=sushant-poudel2028&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="180px" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=sushant-me&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="GitHub Stats" height="180px" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=sushant-me&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="180px" />
   <br/>
   <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=sushant-poudel2028&theme=tokyonight&hide_border=true&border_radius=4" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=sushant-me&theme=tokyonight&hide_border=true&border_radius=4" alt="GitHub Streak" />
   </a>
 </div>
 
@@ -42,11 +70,8 @@ I am a passionate developer from Nepal focusing on **Data Science**, **Machine L
 
 ### 🤝 Connect with me:
 <p align="left">
-  <a href="https://linkedin.com/in/sushant-poudel2028" target="blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://instagram.com/sushant_poudelme" target="blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"></a>
-  <a href="mailto:sushant.poudel2028@gmail.com" target="blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
+  <a href="https://linkedin.com/in/sushant-poudel2028" target="blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="https://github.com/sushant-me" target="blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a> <a href="mailto:sushant.poudel2028@gmail.com" target="blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a> </p>
 
 <div align="center">
-  <img src="https://visitcount.itsvg.in/api?id=sushant-poudel2028&icon=0&color=0" alt="Profile Views">
+  <img src="https://visitcount.itsvg.in/api?id=sushant-me&icon=0&color=0" alt="Profile Views">
 </div>
