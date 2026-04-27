@@ -12,7 +12,7 @@ I am an elite Computer Engineering student from Nepal specializing in **Artifici
 
 - 🌍 **Global Recognition:** Two-time Hult Prize 1st Runner-up (2024 & 2025) and Aspire Leaders Global Finalist .
 - 🔬 **Current Research:** Engineering offline-first Robotic OS with RAG memory and LLM Agent Firewalls for sub-millisecond threat neutralization .
-- 🎓 **Education:** 7th Semester Computer Engineering at Nepal Engineering College (NEC) .
+- 🎓 **Education:** 8th Semester Computer Engineering at Nepal Engineering College (NEC) .
 - 📫 **Reach out to me:** **[sushant.poudel2028@gmail.com](mailto:sushant.poudel2028@gmail.com)** ---
 
 ### 🏆 Global Leadership & Awards
