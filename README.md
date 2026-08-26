@@ -65,7 +65,7 @@ I am a final-year Computer Engineering student from Nepal specializing in **Arti
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushant-me&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" />
   <br/><br/>
   <a href="https://github.com/sushant-me">
-    <img src="https://streak-stats.demolab.com?user=sushant-me&theme=tokyonight&hide_border=true&border_radius=4" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=sushant-me&theme=tokyonight&hide_border=true&border_radius=4" alt="GitHub Streak" />
   </a>
 </div>
 
