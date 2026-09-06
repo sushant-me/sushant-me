@@ -1,7 +1,7 @@
 <!-- Profile README for sushant-me. Animated + honest. Edit freely. -->
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?lines=Hi%2C+I%27m+Sushant+Poudel!;AI+Security+Engineer;Full-Stack+Developer;Building+for+places+where+infrastructure+doesn%27t&font=Fira+Code&center=true&duration=2800&pause=600&width=650&height=60" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?lines=Hi%2C+I%27m+Sushant+Poudel!;AI+Security+Engineer;Full-Stack+Developer;Building+for+places+where+infrastructure+doesn%27t&font=Fira+Code&center=true&duration=2600&pause=500&width=650&height=60&color=FF6AC1,00E5FF,8A2BE2" alt="Typing SVG" />
 </div>
 
 <p align="center">
@@ -45,6 +45,25 @@
 | **Campus apps** | NEC campus app + Pokhara University syllabus app used by real students | [NEC](https://github.com/sushant-me/nec-campus-app) · [PU](https://github.com/sushant-me/Pokhara-University-computer-app) |
 | **Portfolio** | Personal site | [Repo](https://github.com/sushant-me/Portfolio) |
 
+### 🧱 Architecture (Mermaid)
+
+```mermaid
+flowchart LR
+    A[Next.js Frontend<br/>App Router + NextAuth] -->|REST /api| B[NestJS Backend<br/>JWT + server-side sessions]
+    B --> C[(PostgreSQL<br/>Prisma ORM)]
+    B --> D[Payment Providers<br/>eSewa · Khalti]
+    B --> E[SMS Gateway<br/>Sparrow / Mock]
+    B --> F[AI Security Layer<br/>prompt-injection guard]
+    A --> G[Flutter Apps<br/>NEC · PU campus]
+    F --> B
+```
+
+**How I secure the stack:**
+- JWT access tokens require a live server-side session; the 2FA hand-off token is never a bearer token.
+- Uploaded images are content-validated by magic bytes and re-encoded to a safe JPEG.
+- Payment confirmation only after server-to-server verification with the provider.
+- Privileged roles are admin-granted only; KYC gated server-side.
+
 ### 🧪 Research & signature projects
 
 | Project | Area | Status |
@@ -63,16 +82,17 @@
 ### 🛠️ Tech stack (animated)
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,typescript,react,nextjs,nodejs,flutter,dart,cpp,linux,prisma,nestjs,postgresql" alt="Tech stack skills" />
+  <img src="https://skillicons.dev/icons?i=python,typescript,react,nextjs,nodejs,flutter,dart,cpp,linux,prisma,nestjs,postgresql,git,github,docker" alt="Tech stack skills" />
 </p>
 
-### 📈 GitHub stats
+### 📈 Activity & contributions
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sushant-me&show_icons=true&count_private=true&theme=tokyonight" alt="GitHub stats" width="49%">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=sushant-me&theme=tokyonight" alt="Streak stats" width="49%">
-  <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sushant-me&theme=react-dark&bg_color=0d1117&hide_border=true" alt="Activity graph" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%" />
 </p>
 
 ### 🏅 Achievements & highlights
