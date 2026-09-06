@@ -1,14 +1,16 @@
-<!-- Profile README for sushant-me. Edit freely; keep it honest - every badge is a real shields.io count or a verifiable claim. -->
+<!-- Profile README for sushant-me. Animated + honest. Edit freely. -->
 
-<h1 align="center">Hi, I'm Sushant Poudel 👋</h1>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?lines=Hi%2C+I%27m+Sushant+Poudel!;AI+Security+Engineer;Full-Stack+Developer;Building+for+places+where+infrastructure+doesn%27t&font=Fira+Code&center=true&duration=2800&pause=600&width=650&height=60" alt="Typing SVG" />
+</div>
+
 <p align="center">
-  <b>AI Security Engineer & Full-Stack Developer</b><br/>
-  Securing LLM pipelines · Architecting offline systems · Building for places where infrastructure doesn't.
+  <b>Securing LLM pipelines · Architecting offline systems · Building high-impact tech</b>
 </p>
 
 <p align="center">
   <a href="https://github.com/sushant-me?tab=followers">
-    <img src="https://img.shields.io/github/followers/sushant-me?style=for-the-badge&logo=github&label=Followers&color=0A66C2" alt="GitHub followers">
+    <img src="https://img.shields.io/github/followers/sushant-me?style=for-the-badge&logo=github&label=Followers&color=0A66C2" alt="Followers">
   </a>
   <a href="https://github.com/sushant-me">
     <img src="https://img.shields.io/github/stars/sushant-me?style=for-the-badge&logo=github&label=Total%20Stars" alt="Total stars">
@@ -58,21 +60,10 @@
 - 🌍 **Fundamentals Program Intern** — Nobel Learning PBC, USA (Dec 2025 – Aug 2026)
 - 💻 **Freelance Full-Stack Developer** — Self-employed (Aug 2023 – Present)
 
-### 🛠️ Tech stack
+### 🛠️ Tech stack (animated)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS">
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/AI%20%26%20Security-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" alt="AI & Security">
+  <img src="https://skillicons.dev/icons?i=python,typescript,react,nextjs,nodejs,flutter,dart,cpp,linux,prisma,nestjs,postgresql" alt="Tech stack skills" />
 </p>
 
 ### 📈 GitHub stats
@@ -80,13 +71,11 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sushant-me&show_icons=true&count_private=true&theme=tokyonight" alt="GitHub stats" width="49%">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=sushant-me&theme=tokyonight" alt="Streak stats" width="49%">
+  <br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sushant-me&theme=react-dark&bg_color=0d1117&hide_border=true" alt="Activity graph" width="100%">
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushant-me&layout=compact&theme=tokyonight" alt="Top languages" width="49%">
-</p>
-
-### 🏅 Achievements
+### 🏅 Achievements & highlights
 
 <p align="center">
   <img src="https://img.shields.io/badge/Quickdraw-181717?style=for-the-badge&logo=github&logoColor=white" alt="Quickdraw">
