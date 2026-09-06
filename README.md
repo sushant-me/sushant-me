@@ -1,16 +1,24 @@
-<!-- Profile README for sushant-me. Edit freely; keep it honest - only link projects that are public. -->
+<!-- Profile README for sushant-me. Edit freely; keep it honest - every badge is a real shields.io count or a verifiable claim. -->
 
 <h1 align="center">Hi, I'm Sushant Poudel 👋</h1>
 <p align="center">
-  <b>AI Researcher & Full-Stack Engineer</b><br/>
-  Securing LLM pipelines · Architecting offline systems · Shipping products that work where infrastructure doesn't.
+  <b>AI Security Engineer & Full-Stack Developer</b><br/>
+  Securing LLM pipelines · Architecting offline systems · Building for places where infrastructure doesn't.
 </p>
 
 <p align="center">
-  <a href="https://github.com/sushant-me/Portfolio"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="mailto:sushant.poudel2028@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://github.com/sushant-me"><img src="https://img.shields.io/github/followers/sushant-me?style=for-the-badge&logo=github&label=GitHub" alt="Followers"></a>
-  <img src="https://img.shields.io/badge/2x%20Hult%20Prize%20Finalist-FF4B4B?style=for-the-badge&logo=trophy&logoColor=white" alt="Hult Prize">
+  <a href="https://github.com/sushant-me?tab=followers">
+    <img src="https://img.shields.io/github/followers/sushant-me?style=for-the-badge&logo=github&label=Followers&color=0A66C2" alt="GitHub followers">
+  </a>
+  <a href="https://github.com/sushant-me">
+    <img src="https://img.shields.io/github/stars/sushant-me?style=for-the-badge&logo=github&label=Total%20Stars" alt="Total stars">
+  </a>
+  <a href="https://github.com/sushant-me/Mero-Bazaar-Secured">
+    <img src="https://img.shields.io/badge/AI%20%26%20Security-2e7d32?style=for-the-badge&logo=shield&logoColor=white" alt="AI & Security">
+  </a>
+  <a href="mailto:sushant.poudel2028@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
 </p>
 
 ---
@@ -61,10 +69,10 @@
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/LLM%20%26%20AI-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" alt="AI">
+  <img src="https://img.shields.io/badge/AI%20%26%20Security-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" alt="AI & Security">
 </p>
 
-### 📈 GitHub
+### 📈 GitHub stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sushant-me&show_icons=true&count_private=true&theme=tokyonight" alt="GitHub stats" width="49%">
@@ -75,7 +83,16 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushant-me&layout=compact&theme=tokyonight" alt="Top languages" width="49%">
 </p>
 
+### 🏅 Achievements
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Quickdraw-181717?style=for-the-badge&logo=github&logoColor=white" alt="Quickdraw">
+  <img src="https://img.shields.io/badge/Pull%20Shark-181717?style=for-the-badge&logo=github&logoColor=white" alt="Pull Shark">
+  <img src="https://img.shields.io/badge/YOLO-181717?style=for-the-badge&logo=github&logoColor=white" alt="YOLO">
+  <img src="https://img.shields.io/badge/Developer%20Program%20Member-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="Developer Program Member">
+</p>
+
 ### 📬 Get in touch
 
-- Email: sushant.poudel2028@gmail.com
+- Email: [sushant.poudel2028@gmail.com](mailto:sushant.poudel2028@gmail.com)
 - Open to internships, research collaborations, security consulting, and hackathon teams — if you work on AI safety, offline systems, or Nepal-focused tech, reach out.
