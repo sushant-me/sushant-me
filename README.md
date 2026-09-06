@@ -1,11 +1,15 @@
 <!-- Profile README for sushant-me. Animated + honest. Edit freely. -->
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?lines=Hi%2C+I%27m+Sushant+Poudel!;AI+Security+Engineer;Full-Stack+Developer;Building+for+places+where+infrastructure+doesn%27t&font=Fira+Code&center=true&duration=2600&pause=500&width=650&height=60&color=FF6AC1,00E5FF,8A2BE2" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=160&section=header&text=Hi,%20I%27m%20Sushant!&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=42" alt="Animated waving banner" width="100%" />
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?lines=AI+Security+Engineer;Full-Stack+Developer;Building+high-impact+tech&font=Fira+Code&center=true&duration=2600&pause=500&width=650&height=60&color=FF6AC1,00E5FF,8A2BE2" alt="Typing SVG" />
 </div>
 
 <p align="center">
-  <b>Securing LLM pipelines · Architecting offline systems · Building high-impact tech</b>
+  <b>Securing LLM pipelines · Architecting offline systems · Building for places where infrastructure doesn't</b>
 </p>
 
 <p align="center">
@@ -58,12 +62,6 @@ flowchart LR
     F --> B
 ```
 
-**How I secure the stack:**
-- JWT access tokens require a live server-side session; the 2FA hand-off token is never a bearer token.
-- Uploaded images are content-validated by magic bytes and re-encoded to a safe JPEG.
-- Payment confirmation only after server-to-server verification with the provider.
-- Privileged roles are admin-granted only; KYC gated server-side.
-
 ### 🧪 Research & signature projects
 
 | Project | Area | Status |
@@ -85,10 +83,19 @@ flowchart LR
   <img src="https://skillicons.dev/icons?i=python,typescript,react,nextjs,nodejs,flutter,dart,cpp,linux,prisma,nestjs,postgresql,git,github,docker" alt="Tech stack skills" />
 </p>
 
+### 📊 Profile summary (colorful, live)
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sushant-me&theme=github_dark" alt="Profile details" width="100%" />
+  <br/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sushant-me&theme=github_dark" alt="Languages" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sushant-me&theme=github_dark" alt="Most-commit language" width="49%" />
+</p>
+
 ### 📈 Activity & contributions
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sushant-me&theme=tokyonight" alt="Streak stats" width="49%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sushant-me&theme=tokyonight" alt="Streak stats" width="49%" />
 </p>
 
 <p align="center">
