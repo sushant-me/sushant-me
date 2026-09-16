@@ -1,0 +1,35 @@
+# Fails when the profile README points a tool at a release that is no longer the
+# latest one.
+#
+# This happened twice and was invisible both times: mcp-nameguard v0.4.5 and
+# trajectorycheck v0.1.1 stayed in the README after v0.4.6 and v0.1.2 were cut.
+# Nothing on the page looks wrong - the old release page still resolves - so the
+# profile simply understated the work until someone compared the two by hand.
+#
+# The weekly run is the one that matters: a release is cut in another repository,
+# so no push to this one would otherwise re-run the check.
+name: profile links
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "23 6 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  release-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - name: Every release link is the latest release
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 .github/check_release_links.py
