@@ -55,6 +55,7 @@ Real bugs, fixed in real projects — each one links to the evidence.
 **Open-source security tooling I built:**
 
 - **[agentbound](https://github.com/sushant-me/agentbound)** — cross-language (Python / TypeScript / JavaScript / Go / Java / GitHub Actions) static detector for AI-agent tool-boundary bugs: reserved-name omission, last-wins tool dicts, fail-open confirmation gates, unauthenticated agent CI dispatch. It found the gemini-cli issue above.
+- **[mcp-nameguard](https://github.com/sushant-me/mcp-nameguard)** — checks the tool names an MCP server advertises against the names agent frameworks reserve for their own tools (cross-server tool shadowing). The reserved lists are transcribed from each framework's own source, so it is a lookup rather than a heuristic. Grew out of a gap I found and reported in `google/adk-python` — [#7144](https://github.com/google/adk-python/issues/7144) / [#7145](https://github.com/google/adk-python/pull/7145).
 - **[trajectorycheck](https://github.com/sushant-me/trajectorycheck)** — trajectory-level evaluator for AI agents: scores tool selection, argument correctness, side effects and cross-run determinism, catching the "looks correct but is broken" failures output-level evals miss.
 
 ### 🚀 Featured work
