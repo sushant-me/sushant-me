@@ -40,7 +40,9 @@
 
 ### 🛡️ Security track record (verifiable)
 
-Real bugs, fixed in real projects — each one links to the evidence.
+Real bugs, fixed in real projects — each one links to the evidence. Work still
+in review is marked as such and linked, so the status is checkable rather than
+asserted.
 
 | What | Evidence |
 |---|---|
@@ -51,6 +53,8 @@ Real bugs, fixed in real projects — each one links to the evidence.
 | **PortSwigger Web Security Academy** — 100% of all 273 labs · **Expert** level · Hall of Fame **#237** | [Web Security Academy](https://portswigger.net/web-security) |
 | **HackingHub** — reached **#1 on the leaderboard** · Security Precursor Path certified | [hackinghub.io](https://app.hackinghub.io/) |
 | **Google VRP** — 4 reports submitted, 2 assigned by triage | (private disclosure) |
+| **Attack vector contributed to Trail of Bits' `agentic-actions-auditor`** — the unbounded-tool-target class behind CVE-2026-44246, which its A–I vectors did not cover; also corrected its Vector H false-positive note, whose "specific restricted tool patterns are not dangerous" clearing also covered the mutating forms this class is made of | [trailofbits/skills#311](https://github.com/trailofbits/skills/pull/311) *(in review)* |
+| **New detection rule contributed to `sisaku-security/sisakulint`** — `ai-action-unbounded-tool-pattern`, verified against the three real revisions of the nnU-Net workflow, including the commit titled *"hardened issue and PR agents"* that left the grant unbounded | [sisakulint#644](https://github.com/sisaku-security/sisakulint/pull/644) *(in review)* |
 | **Reproducible fixtures + measured detector coverage** for the agentic-workflow-injection class published as **CVE-2026-44246** (nnU-Net, CVSS 7.2) — three real revisions pinned by commit SHA, scored by three detectors, re-runnable byte-identically from a fresh clone | [agentic-workflow-injection](https://github.com/sushant-me/agentic-workflow-injection) |
 
 **Open-source security tooling I built:**
