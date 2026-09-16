@@ -38,6 +38,24 @@
 - 🎓 Computer Engineering (final year) @ Nepal Engineering College (NEC).
 - 📍 Kathmandu, Nepal — I build for places where connectivity is unreliable.
 
+### 🛡️ Security track record (verifiable)
+
+Real bugs, fixed in real projects — each one links to the evidence.
+
+| What | Evidence |
+|---|---|
+| **5 memory-safety bugs** found & fixed in Google's S2 geometry library — null-deref, OOB read, two OOMs (16 GiB / 2.4 GiB), heap-buffer-overflow — ASan-verified | [google/s2geometry#675](https://github.com/google/s2geometry/pull/675) |
+| **Google maintainer LGTM** on a security fix to `go-github` | [google/go-github#4556](https://github.com/google/go-github/pull/4556) |
+| **Tool-boundary vulnerability** found in `google-gemini/gemini-cli` — unauthenticated `issues` event triggering a credential-bearing agent | via [agentbound](https://github.com/sushant-me/agentbound) |
+| **PortSwigger Web Security Academy** — 100% of all 273 labs · **Expert** level · Hall of Fame **#237** | [Web Security Academy](https://portswigger.net/web-security) |
+| **HackingHub** — **#1 on the leaderboard** (current quarter) · Security Precursor Path certified | [hackinghub.io](https://app.hackinghub.io/) |
+| **Google VRP** — 4 reports submitted, 2 assigned by triage | (private disclosure) |
+
+**Open-source security tooling I built:**
+
+- **[agentbound](https://github.com/sushant-me/agentbound)** — cross-language (Python / TypeScript / YAML) static detector for AI-agent tool-boundary bugs: reserved-name omission, last-wins tool dicts, fail-open confirmation gates, unauthenticated agent CI dispatch. It found the gemini-cli issue above.
+- **[trajectorycheck](https://github.com/sushant-me/trajectorycheck)** — trajectory-level evaluator for AI agents: scores tool selection, argument correctness, side effects and cross-run determinism, catching the "looks correct but is broken" failures output-level evals miss.
+
 ### 🚀 Featured work
 
 | Project | What it is | Links |
