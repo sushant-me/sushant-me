@@ -46,10 +46,10 @@ Real bugs, fixed in real projects — each one links to the evidence.
 |---|---|
 | **5 memory-safety bugs** found & fixed in Google's S2 geometry library — null-deref, OOB read, two OOMs (16 GiB / 2.4 GiB), heap-buffer-overflow — ASan-verified | [google/s2geometry#675](https://github.com/google/s2geometry/pull/675) |
 | **Google maintainer LGTM** on a security fix to `go-github` | [google/go-github#4556](https://github.com/google/go-github/pull/4556) |
-| **Tool-boundary vulnerability** found in `google-gemini/gemini-cli` — unauthenticated `issues` event triggering a credential-bearing agent | via [agentbound](https://github.com/sushant-me/agentbound) |
+| **Tool-boundary vulnerability** identified in `google-gemini/gemini-cli`'s agent CI — mechanism withheld pending vendor triage | found with [agentbound](https://github.com/sushant-me/agentbound) |
 | **Google engineer reproduced** a tool-shadowing bug I reported in the ADK MCP toolset — *"I have successfully reproduced the issue you described"*; issue and fix PR both under team review | [issue](https://github.com/google/adk-java/issues/1513) · [PR](https://github.com/google/adk-java/pull/1515) · [Go port](https://github.com/google/adk-go/pull/1606) |
 | **PortSwigger Web Security Academy** — 100% of all 273 labs · **Expert** level · Hall of Fame **#237** | [Web Security Academy](https://portswigger.net/web-security) |
-| **HackingHub** — **#1 on the leaderboard** (current quarter) · Security Precursor Path certified | [hackinghub.io](https://app.hackinghub.io/) |
+| **HackingHub** — reached **#1 on the leaderboard** · Security Precursor Path certified | [hackinghub.io](https://app.hackinghub.io/) |
 | **Google VRP** — 4 reports submitted, 2 assigned by triage | (private disclosure) |
 
 **Open-source security tooling I built:**
@@ -82,13 +82,21 @@ flowchart LR
     F --> B
 ```
 
-### 🧪 Research & signature projects
+### 🧪 Research
 
-| Project | Area | Status |
-|---|---|---|
-| LLM Agent Firewall | AI security | Sub-millisecond offline inspection layer for multi-agent pipelines (100% overt prompt-injection containment). Submitted to Cyber-AI 2026. |
-| EmbodiedOS | Edge AI | Fully offline robotic OS — C++ hardware control with local LLMs for manipulation. |
-| GhostSignal | Wi-Fi sensing | ESP32 Wi-Fi CSI rescue system detecting micro-movements under rubble. |
+**Edge-Native Semantic Firewall** — *can a 3.8B model on one laptop act as an autonomous agent's action-verification layer?*
+
+I ran 1,800 generations on Phi-3-mini (4-bit, held inside a 4.2 GiB VRAM budget, no cloud calls) across 600 policy scenarios, comparing three ways of asking the model to judge a proposed action: free-form text, JSON-constrained output, and JSON with a mandated Chain-of-Thought field order.
+
+The result inverted the assumption. **Constraining the output format without requiring the reasoning step produced the least safe evaluator of the three** — that arm approved 46.2% of the actions the policy would have blocked or escalated, worse than unconstrained free-form at 17.2%. Requiring the rule attribution first cut it to 23.5% and lifted hard-denial accuracy from 62.5% to **90.8%**.
+
+It still approved **6 of 208 irreversible actions**, and it was *more permissive than free-form* on ambiguous cases that should have reached a human. So the paper concludes a model this size can serve as **one layer** of a defence-in-depth stack and not a sole control — and we withdrew three earlier claims, including a "100%" headline, that our own measurements falsified.
+
+Every number is checkable: the corpus generator, the harness, all 3,000 recorded generations (1,800 across the three conditions, 600 with a declared action vector, 600 replication), and the paper are in the repo. Reproducing a negative result and publishing it is the part I'd point at.
+
+→ **[Code · corpus · raw outputs · paper](https://github.com/sushant-me/Edge-Native_Semantic_Firewall_)**
+
+<sub>Also in progress, **not yet public**: EmbodiedOS (offline robotic control with local LLMs) and GhostSignal (ESP32 Wi-Fi CSI sensing for locating movement under rubble). Kept off the list until there's an artifact worth linking.</sub>
 
 ### 💼 Experience
 
