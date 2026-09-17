@@ -55,7 +55,7 @@ asserted.
 | **HackingHub** — reached **#1 on the leaderboard** · Security Precursor Path certified | [hackinghub.io](https://app.hackinghub.io/) |
 | **Google VRP** — 4 reports submitted, 2 assigned by triage | (private disclosure) |
 | **Attack vector contributed to Trail of Bits' `agentic-actions-auditor`** — the unbounded-tool-target class behind CVE-2026-44246, which its A–I vectors did not cover; also corrected its Vector H false-positive note, whose "specific restricted tool patterns are not dangerous" clearing also covered the mutating forms this class is made of | [trailofbits/skills#311](https://github.com/trailofbits/skills/pull/311) *(in review)* |
-| **New detection rule contributed to `sisaku-security/sisakulint`** — `ai-action-unbounded-tool-pattern`, verified against the three real revisions of the nnU-Net workflow, including the commit titled *"hardened issue and PR agents"* that left the grant unbounded | [sisakulint#644](https://github.com/sisaku-security/sisakulint/pull/644) *(in review)* |
+| **Detection rule contributed to `sisaku-security/sisakulint`, and the audit it forced** — `ai-action-unbounded-tool-pattern`, validated by running it over **224 real workflows** rather than my own fixtures, which then exposed bugs in **five shipped rules including its own**: a trigger set omitting two events the repo's own `PrivilegedTriggers` calls untrusted; a `"*"` allowlist matched only as a whole string; `openai/codex-action`'s `allow-users` input never read at all; the list shared by all six AI rules missing `claude-code-base-action`, leaving every rule blind to it; and a sandbox check guarding a value under an input it never read — which reported **nothing** until corrected, when it found **10**. Every fix carries a regression test that fails without it | [sisakulint#644](https://github.com/sisaku-security/sisakulint/pull/644) *(in review)* · [issue #645](https://github.com/sisaku-security/sisakulint/issues/645) |
 | **Reproducible fixtures + measured detector coverage** for the agentic-workflow-injection class published as **CVE-2026-44246** (nnU-Net, CVSS 7.2) — three real revisions pinned by commit SHA, scored by three detectors, re-runnable byte-identically from a fresh clone | [agentic-workflow-injection](https://github.com/sushant-me/agentic-workflow-injection) |
 
 **Open-source security tooling I built:**
@@ -154,3 +154,4 @@ Every number is checkable: the corpus generator, the harness, all 3,000 recorded
 
 - Email: [sushant.poudel2028@gmail.com](mailto:sushant.poudel2028@gmail.com)
 - Open to internships, research collaborations, security consulting, and hackathon teams — if you work on AI safety, offline systems, or Nepal-focused tech, reach out.
+
