@@ -103,6 +103,16 @@ Every number is checkable: the corpus generator, the harness, all 3,000 recorded
 
 → **[Code · corpus · raw outputs · paper](https://github.com/sushant-me/Edge-Native_Semantic_Firewall_)**
 
+**beyond-attention** — *can a non-Transformer architecture do in-context lookup?*
+
+Mamba's **S6 selective state-space recurrence**, implemented from scratch and put against a parameter-matched Transformer (67,584 vs 67,968 parameters — counted from the tensors and asserted in the tests, not quoted). The recurrence is written three times sharing no code: the definition as an explicit loop, a chunked scan, and a Hillis–Steele scan over the `(a, b)` monoid in log₂(L) parallel steps. All three are asserted equal to float64 tolerance — and, separately, **causal** (change an input at position `t`; every earlier output must be bit-for-bit unchanged) and **long-range** (the convolution's kernel is 2, so a change at position 0 must still move position 11). Five deliberate mutations each fail a different test. 56 tests.
+
+The measurement produced a result I did not expect, and then I ran the control that destroyed it. At a matched 3,000-step budget the state-space model reaches 1.000 exact-match up to 8 key/value pairs in context while the Transformer degrades to 0.203 — the headline writes itself, *"state-space models recall better than Transformers"*. **The same Transformer, with nothing changed but the step budget raised to 20,000, reaches 1.000 too.** Induction heads form late, so the sweep had measured *learning speed*, not capability. Publishing the main table alone would have been a training-budget artefact dressed as an architectural result.
+
+The scaling numbers do not favour my implementation either: 20–40× slower and ~8× more activation memory per token than attention from 128 to 2048 tokens, because the scan materialises its `(B, L, D, N)` terms where a fused kernel streams them — and because the baseline is *already* fused, so attention's memory is linear here too and the usual quadratic comparison does not hold against it. That is in the README, not hidden behind the asymptotic claim.
+
+→ **[Code · tests · results.json · README](https://github.com/sushant-me/beyond-attention)**
+
 <sub>Also in progress, **not yet public**: EmbodiedOS (offline robotic control with local LLMs) and GhostSignal (ESP32 Wi-Fi CSI sensing for locating movement under rubble). Kept off the list until there's an artifact worth linking.</sub>
 
 ### 💼 Experience
