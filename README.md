@@ -47,7 +47,7 @@ asserted.
 | What | Evidence |
 |---|---|
 | **5 memory-safety bugs** found & fixed in Google's S2 geometry library — null-deref, OOB read, two OOMs (16 GiB / 2.4 GiB), heap-buffer-overflow — ASan-verified | [google/s2geometry#675](https://github.com/google/s2geometry/pull/675) |
-| **Google maintainer LGTM** on a security fix to `go-github` | [google/go-github#4556](https://github.com/google/go-github/pull/4556) |
+| **Security fix merged into Google's `go-github`** — a release-asset upload could be redirected by the API response, carrying the caller's `Authorization` header, to a host of the response's choosing; now refused unless it matches the configured upload host *(two maintainer approvals)* | [merged to master](https://github.com/google/go-github/commit/fe2bc5ce21a2339d9f9c69f994feefbc61b93fdb) · [PR #4556](https://github.com/google/go-github/pull/4556) |
 | **Tool-boundary vulnerability** identified in `google-gemini/gemini-cli`'s agent CI — mechanism withheld pending vendor triage | found with [agentbound](https://github.com/sushant-me/agentbound) |
 | **Google engineer reproduced** a tool-shadowing bug I reported in the ADK MCP toolset — *"I have successfully reproduced the issue you described"*; issue and fix PR both under team review | [issue](https://github.com/google/adk-java/issues/1513) · [PR](https://github.com/google/adk-java/pull/1515) · [Go port](https://github.com/google/adk-go/pull/1606) |
 | **PortSwigger Web Security Academy** — 100% of all 273 labs · **Expert** level · Hall of Fame **#237** | [Web Security Academy](https://portswigger.net/web-security) |
