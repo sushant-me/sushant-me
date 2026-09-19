@@ -68,7 +68,9 @@ prototype that works through rubble without cameras, and an offline payment wall
   because of a measurement: my paper found a locally served 3.8B model approving **23.5%** of the
   proposals the policy would have blocked. In the library a model can deny or escalate and **cannot
   authorise** an uncovered action, a failing evaluator falls through to a refusal, and every decision
-  lands in a hash-chained audit log. Weakening that invariant fails three tests.
+  lands in a hash-chained audit log. Ships adapters for MCP servers, LangChain-style tools
+  and provider function calls, so gating a call needs no new dependency. Weakening either
+  invariant fails six tests.
 - [**reputation**](https://github.com/sushant-me/reputation) — the claims-verification repository described above.
 
 ## Writing
