@@ -66,6 +66,12 @@ prototype that works through rubble without cameras, and an offline payment wall
 - [**Edge-Native Semantic Firewall**](https://github.com/sushant-me/Edge-Native_Semantic_Firewall_) — paper, 600-scenario corpus, raw model outputs, camera-ready, and reproducibility checks that can fail.
 - [**reputation**](https://github.com/sushant-me/reputation) — the claims-verification repository described above.
 
+## Tools, at their current release
+
+- [agentbound](https://github.com/sushant-me/agentbound) — [v0.1.9](https://github.com/sushant-me/agentbound/releases/tag/v0.1.9) · tool-boundary bugs in agent frameworks (Python, TypeScript, YAML)
+- [mcp-nameguard](https://github.com/sushant-me/mcp-nameguard) — [v0.4.7](https://github.com/sushant-me/mcp-nameguard/releases/tag/v0.4.7) · MCP tool names against the ones frameworks reserve
+- [trajectorycheck](https://github.com/sushant-me/trajectorycheck) — [v0.1.2](https://github.com/sushant-me/trajectorycheck/releases/tag/v0.1.2) · grades whole agent trajectories, with a deliberately broken agent as a control
+
 ---
 
 <div align="center">
