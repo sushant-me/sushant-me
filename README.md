@@ -68,6 +68,7 @@ prototype that works through rubble without cameras, and an offline payment wall
 
 ## Writing
 
+- [**Structured output made my safety evaluator less safe**](https://github.com/sushant-me/writeups/blob/main/2026-09-20-structured-output-made-it-less-safe.md) — the counter-intuitive result from my paper: JSON-constrained output *without* a reasoning field approved **46.2%** of proposals the policy would have blocked, against **17.2%** for free-form, and it was 5.5× faster — the trade a team picks under a latency budget. Includes the parts that hurt: the best arm still approved 6 of 208 irreversible hard denials.
 - [**A sample agent security review**](https://github.com/sushant-me/agent-review-sample) — a deliberately vulnerable agent I wrote, and the deliverable I would return for it: four findings (tool shadowing, a fail-open confirmation gate, indirect prompt injection, path traversal) with reproductions, fixes, and a section stating what was *not* tested. `python3 demo.py` reproduces all four.
 - [**The crash that wasn't**](https://github.com/sushant-me/writeups/blob/main/2026-09-19-the-crash-that-wasnt.md) — a memory-safety test that passed locally and segfaulted in CI, the AddressSanitizer trace that showed my patch fixed the wrong bug, and the pull request I closed on myself afterwards. *"A passing memory-safety test proves almost nothing unless it runs under a sanitizer."*
 
