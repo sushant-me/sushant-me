@@ -66,6 +66,10 @@ prototype that works through rubble without cameras, and an offline payment wall
 - [**Edge-Native Semantic Firewall**](https://github.com/sushant-me/Edge-Native_Semantic_Firewall_) — paper, 600-scenario corpus, raw model outputs, camera-ready, and reproducibility checks that can fail.
 - [**reputation**](https://github.com/sushant-me/reputation) — the claims-verification repository described above.
 
+## Writing
+
+- [**The crash that wasn't**](https://github.com/sushant-me/writeups/blob/main/2026-09-19-the-crash-that-wasnt.md) — a memory-safety test that passed locally and segfaulted in CI, the AddressSanitizer trace that showed my patch fixed the wrong bug, and the pull request I closed on myself afterwards. *"A passing memory-safety test proves almost nothing unless it runs under a sanitizer."*
+
 ## Tools, at their current release
 
 - [agentbound](https://github.com/sushant-me/agentbound) — [v0.1.9](https://github.com/sushant-me/agentbound/releases/tag/v0.1.9) · tool-boundary bugs in agent frameworks (Python, TypeScript, YAML)
