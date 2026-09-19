@@ -76,6 +76,12 @@ prototype that works through rubble without cameras, and an offline payment wall
   invisible Unicode **with the tag-block payload decoded**, look-alike names, destructive
   tools declaring `readOnlyHint`. Pins the declarations in a lock file, so a description
   that changes after you approve it is reported as the tool-poisoning shape it is.
+- [**tool-boundary-corpus**](https://github.com/sushant-me/tool-boundary-corpus) — a labelled
+  corpus of 18 agent tool-boundary cases and a detector-agnostic harness, because a claim about
+  a scanner is worth little without precision and recall. Measured: my `mcpaudit` at
+  **P=1.000 R=1.000** on the tool-list cases, and my `agentbound` at **P=0.750 R=1.000** on the
+  code cases — the false positive is a file where the pattern appears only inside a string, which
+  its comment-stripping does not cover. The corpus is self-authored, and says so in every report.
 - [**reputation**](https://github.com/sushant-me/reputation) — the claims-verification repository described above.
 
 ## Writing
