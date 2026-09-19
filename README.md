@@ -71,6 +71,11 @@ prototype that works through rubble without cameras, and an offline payment wall
   lands in a hash-chained audit log. Ships adapters for MCP servers, LangChain-style tools
   and provider function calls, so gating a call needs no new dependency. Weakening either
   invariant fails six tests.
+- [**mcpaudit**](https://github.com/sushant-me/mcpaudit) — audits an MCP server's tool
+  declarations before you connect: reserved-name collisions, instruction-shaped text,
+  invisible Unicode **with the tag-block payload decoded**, look-alike names, destructive
+  tools declaring `readOnlyHint`. Pins the declarations in a lock file, so a description
+  that changes after you approve it is reported as the tool-poisoning shape it is.
 - [**reputation**](https://github.com/sushant-me/reputation) — the claims-verification repository described above.
 
 ## Writing
