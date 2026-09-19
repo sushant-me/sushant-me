@@ -81,20 +81,23 @@ prototype that works through rubble without cameras, and an offline payment wall
   a scanner is worth little without precision and recall. Measured: my `mcpaudit` at
   **P=1.000 R=1.000** on the tool-list cases and **P=1.000 R=1.000** on the code cases. That second
   number started at 0.750: the corpus found a false positive in `agentbound` (a pattern inside a
-  string bound to a name, which its comment-stripping did not cover), I fixed it in
-  [v0.1.10](https://github.com/sushant-me/agentbound/releases/tag/v0.1.10), and the same harness
-  re-measured the improvement. The corpus is self-authored, and says so in every report.
+  string bound to a name, which its comment-stripping did not cover), I fixed it in v0.1.10, and
+  the same harness re-measured the improvement. Adding the guard that pins which build a score
+  came from turned up a third defect — [v0.1.11](https://github.com/sushant-me/agentbound/releases/tag/v0.1.11)
+  corrects a release that reported the wrong version. The corpus is self-authored, and says so in
+  every report.
 - [**reputation**](https://github.com/sushant-me/reputation) — the claims-verification repository described above.
 
 ## Writing
 
+- [**A benchmark found a bug in my own detector**](https://github.com/sushant-me/writeups/blob/main/2026-09-21-a-benchmark-found-a-bug-in-my-own-detector.md) — I built a labelled corpus to stop making unmeasured claims and it found a false positive in my own scanner: precision **0.750 → 1.000**, with the failing case named in CI rather than deleted. The benchmark was wrong twice before the detector was, the harness assumed its author's output format, and the guard added for the fix surfaced a third defect — a release that reported the wrong version. Three defects, one shape: a number nothing checked.
 - [**Structured output made my safety evaluator less safe**](https://github.com/sushant-me/writeups/blob/main/2026-09-20-structured-output-made-it-less-safe.md) — the counter-intuitive result from my paper: JSON-constrained output *without* a reasoning field approved **46.2%** of proposals the policy would have blocked, against **17.2%** for free-form, and it was 5.5× faster — the trade a team picks under a latency budget. Includes the parts that hurt: the best arm still approved 6 of 208 irreversible hard denials.
 - [**A sample agent security review**](https://github.com/sushant-me/agent-review-sample) — a deliberately vulnerable agent I wrote, and the deliverable I would return for it: four findings (tool shadowing, a fail-open confirmation gate, indirect prompt injection, path traversal) with reproductions, fixes, and a section stating what was *not* tested. `python3 demo.py` reproduces all four.
 - [**The crash that wasn't**](https://github.com/sushant-me/writeups/blob/main/2026-09-19-the-crash-that-wasnt.md) — a memory-safety test that passed locally and segfaulted in CI, the AddressSanitizer trace that showed my patch fixed the wrong bug, and the pull request I closed on myself afterwards. *"A passing memory-safety test proves almost nothing unless it runs under a sanitizer."*
 
 ## Tools, at their current release
 
-- [agentbound](https://github.com/sushant-me/agentbound) — [v0.1.10](https://github.com/sushant-me/agentbound/releases/tag/v0.1.10) · tool-boundary bugs in agent frameworks (Python, TypeScript, YAML)
+- [agentbound](https://github.com/sushant-me/agentbound) — [v0.1.11](https://github.com/sushant-me/agentbound/releases/tag/v0.1.11) · tool-boundary bugs in agent frameworks (Python, TypeScript, YAML)
 - [mcp-nameguard](https://github.com/sushant-me/mcp-nameguard) — [v0.4.7](https://github.com/sushant-me/mcp-nameguard/releases/tag/v0.4.7) · MCP tool names against the ones frameworks reserve
 - [trajectorycheck](https://github.com/sushant-me/trajectorycheck) — [v0.1.2](https://github.com/sushant-me/trajectorycheck/releases/tag/v0.1.2) · grades whole agent trajectories, with a deliberately broken agent as a control
 
