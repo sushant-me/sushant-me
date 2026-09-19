@@ -64,6 +64,11 @@ prototype that works through rubble without cameras, and an offline payment wall
 
 - [**beyond-attention**](https://github.com/sushant-me/beyond-attention) — a selective state-space model (Mamba/S6) implemented from scratch in NumPy, published with the results that *don't* flatter it: a scalar register still ties the agent on the arithmetic tasks, and the SSM is the weaker model past its training length.
 - [**Edge-Native Semantic Firewall**](https://github.com/sushant-me/Edge-Native_Semantic_Firewall_) — paper, 600-scenario corpus, raw model outputs, camera-ready, and reproducibility checks that can fail.
+- [**policygate**](https://github.com/sushant-me/policygate) — a fail-closed policy gate for agent tool calls, written
+  because of a measurement: my paper found a locally served 3.8B model approving **23.5%** of the
+  proposals the policy would have blocked. In the library a model can deny or escalate and **cannot
+  authorise** an uncovered action, a failing evaluator falls through to a refusal, and every decision
+  lands in a hash-chained audit log. Weakening that invariant fails three tests.
 - [**reputation**](https://github.com/sushant-me/reputation) — the claims-verification repository described above.
 
 ## Writing
