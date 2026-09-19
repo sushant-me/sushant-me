@@ -79,9 +79,11 @@ prototype that works through rubble without cameras, and an offline payment wall
 - [**tool-boundary-corpus**](https://github.com/sushant-me/tool-boundary-corpus) — a labelled
   corpus of 18 agent tool-boundary cases and a detector-agnostic harness, because a claim about
   a scanner is worth little without precision and recall. Measured: my `mcpaudit` at
-  **P=1.000 R=1.000** on the tool-list cases, and my `agentbound` at **P=0.750 R=1.000** on the
-  code cases — the false positive is a file where the pattern appears only inside a string, which
-  its comment-stripping does not cover. The corpus is self-authored, and says so in every report.
+  **P=1.000 R=1.000** on the tool-list cases and **P=1.000 R=1.000** on the code cases. That second
+  number started at 0.750: the corpus found a false positive in `agentbound` (a pattern inside a
+  string bound to a name, which its comment-stripping did not cover), I fixed it in
+  [v0.1.10](https://github.com/sushant-me/agentbound/releases/tag/v0.1.10), and the same harness
+  re-measured the improvement. The corpus is self-authored, and says so in every report.
 - [**reputation**](https://github.com/sushant-me/reputation) — the claims-verification repository described above.
 
 ## Writing
@@ -92,7 +94,7 @@ prototype that works through rubble without cameras, and an offline payment wall
 
 ## Tools, at their current release
 
-- [agentbound](https://github.com/sushant-me/agentbound) — [v0.1.9](https://github.com/sushant-me/agentbound/releases/tag/v0.1.9) · tool-boundary bugs in agent frameworks (Python, TypeScript, YAML)
+- [agentbound](https://github.com/sushant-me/agentbound) — [v0.1.10](https://github.com/sushant-me/agentbound/releases/tag/v0.1.10) · tool-boundary bugs in agent frameworks (Python, TypeScript, YAML)
 - [mcp-nameguard](https://github.com/sushant-me/mcp-nameguard) — [v0.4.7](https://github.com/sushant-me/mcp-nameguard/releases/tag/v0.4.7) · MCP tool names against the ones frameworks reserve
 - [trajectorycheck](https://github.com/sushant-me/trajectorycheck) — [v0.1.2](https://github.com/sushant-me/trajectorycheck/releases/tag/v0.1.2) · grades whole agent trajectories, with a deliberately broken agent as a control
 
