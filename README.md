@@ -77,7 +77,7 @@ prototype that works through rubble without cameras, and an offline payment wall
   tools declaring `readOnlyHint`. Pins the declarations in a lock file, so a description
   that changes after you approve it is reported as the tool-poisoning shape it is.
 - [**tool-boundary-corpus**](https://github.com/sushant-me/tool-boundary-corpus) — a labelled
-  corpus of 18 agent tool-boundary cases and a detector-agnostic harness, because a claim about
+  corpus of 19 agent tool-boundary cases and a detector-agnostic harness, because a claim about
   a scanner is worth little without precision and recall. Measured: my `mcpaudit` at
   **P=1.000 R=1.000** on the tool-list cases and **P=1.000 R=1.000** on the code cases. That second
   number started at 0.750: the corpus found a false positive in `agentbound` (a pattern inside a
