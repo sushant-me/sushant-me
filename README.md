@@ -77,14 +77,20 @@ prototype that works through rubble without cameras, and an offline payment wall
   tools declaring `readOnlyHint`. Pins the declarations in a lock file, so a description
   that changes after you approve it is reported as the tool-poisoning shape it is.
 - [**tool-boundary-corpus**](https://github.com/sushant-me/tool-boundary-corpus) — a labelled
-  corpus of 19 agent tool-boundary cases and a detector-agnostic harness, because a claim about
-  a scanner is worth little without precision and recall. Measured: my `mcpaudit` at
-  **P=1.000 R=1.000** on the tool-list cases and **P=1.000 R=1.000** on the code cases. That second
-  number started at 0.750: the corpus found a false positive in `agentbound` (a pattern inside a
+  corpus of 23 agent tool-boundary cases and a detector-agnostic harness, because a claim about
+  a scanner is worth little without precision and recall. It scores three kinds: tool
+  declarations, framework source, and **declaration drift** — a rug pull, which needs two states
+  of the same server to be visible at all, so those cases carry the declarations as approved and
+  as they are now. Measured: my `mcpaudit` at **P=1.000 R=1.000** on the tool-list cases and on
+  the drift cases, and `agentbound` at **P=1.000 R=1.000** on the code cases. That last number
+  started at 0.750: the corpus found a false positive in `agentbound` (a pattern inside a
   string bound to a name, which its comment-stripping did not cover), I fixed it in v0.1.10, and
   the same harness re-measured the improvement. Adding the guard that pins which build a score
   came from turned up a third defect — [v0.1.11](https://github.com/sushant-me/agentbound/releases/tag/v0.1.11)
-  corrects a release that reported the wrong version. The corpus is self-authored, and says so in
+  corrects a release that reported the wrong version. The drift adapter was wrong before the
+  detector was: it read the detector's `findings` key and dropped its `drift` key, scoring
+  recall 0.000 on cases that passed — which is why the adapter is now tested against a fake
+  detector emitting the real tool's JSON shape. The corpus is self-authored, and says so in
   every report.
 - [**reputation**](https://github.com/sushant-me/reputation) — the claims-verification repository described above.
 
