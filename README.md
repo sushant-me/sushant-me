@@ -87,8 +87,8 @@ prototype that works through rubble without cameras, and an offline payment wall
   started at 0.750: the corpus found a false positive in `agentbound` (a pattern inside a
   string bound to a name, which its comment-stripping did not cover), I fixed it in v0.1.10, and
   the same harness re-measured the improvement. Adding the guard that pins which build a score
-  came from turned up a third defect — [v0.1.11](https://github.com/sushant-me/agentbound/releases/tag/v0.1.11)
-  corrects a release that reported the wrong version. The drift adapter was wrong before the
+  came from turned up a third defect — v0.1.11 corrects a release that reported the wrong
+  version. The drift adapter was wrong before the
   detector was: it read the detector's `findings` key and dropped its `drift` key, scoring
   recall 0.000 on cases that passed — which is why the adapter is now tested against a fake
   detector emitting the real tool's JSON shape. The corpus is self-authored, and says so in
@@ -106,9 +106,21 @@ prototype that works through rubble without cameras, and an offline payment wall
 
 ## Tools, at their current release
 
-- [agentbound](https://github.com/sushant-me/agentbound) — [v0.1.11](https://github.com/sushant-me/agentbound/releases/tag/v0.1.11) · tool-boundary bugs in agent frameworks (Python, TypeScript, YAML)
-- [mcp-nameguard](https://github.com/sushant-me/mcp-nameguard) — [v0.4.7](https://github.com/sushant-me/mcp-nameguard/releases/tag/v0.4.7) · MCP tool names against the ones frameworks reserve
+- [agentbound](https://github.com/sushant-me/agentbound) — [v0.1.12](https://github.com/sushant-me/agentbound/releases/tag/v0.1.12) · tool-boundary bugs in agent frameworks (Python, TypeScript, YAML)
+- [mcp-nameguard](https://github.com/sushant-me/mcp-nameguard) — [v0.4.8](https://github.com/sushant-me/mcp-nameguard/releases/tag/v0.4.8) · MCP tool names against the ones frameworks reserve
 - [trajectorycheck](https://github.com/sushant-me/trajectorycheck) — [v0.1.2](https://github.com/sushant-me/trajectorycheck/releases/tag/v0.1.2) · grades whole agent trajectories, with a deliberately broken agent as a control
+
+### Security advisories
+
+Four vulnerabilities I found and fixed in my own tooling, each with a reproduction and a
+regression test, published as GitHub security advisories rather than only as release notes:
+
+- **[GHSA-qwvv-fcmm-r3j2](https://github.com/sushant-me/policygate/security/advisories/GHSA-qwvv-fcmm-r3j2)** (high) — `policygate`: a glob `deny` rule could be stepped around with a newline in the matched value, so the call fell through to a broader `allow` and proceeded with no human in the loop. An authorization bypass in the gate itself.
+- **[GHSA-wcqw-86xv-w95q](https://github.com/sushant-me/mcp-nameguard/security/advisories/GHSA-wcqw-86xv-w95q)** — `mcp-nameguard`: an unbounded reply let a hostile MCP server kill the scanner inspecting it, which fails open against the exact adversary it was pointed at.
+- **[GHSA-mffv-hhg5-mm33](https://github.com/sushant-me/agentbound/security/advisories/GHSA-mffv-hhg5-mm33)** — `agentbound`: the masker blanked one-line assigned strings, deleting the word a rule matches on, so a real finding was reported as nothing.
+- **[GHSA-62f4-h552-54wc](https://github.com/sushant-me/mcpaudit/security/advisories/GHSA-62f4-h552-54wc)** — `mcpaudit`: the invisible-character ranges covered 16 of 256 variation selectors, and the omission also survived the helper meant to show what text really contains.
+
+CVE identifiers requested from GitHub's CNA.
 
 ---
 
