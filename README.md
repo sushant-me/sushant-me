@@ -69,8 +69,8 @@ prototype that works through rubble without cameras, and an offline payment wall
   proposals the policy would have blocked. In the library a model can deny or escalate and **cannot
   authorise** an uncovered action, a failing evaluator falls through to a refusal, and every decision
   lands in a hash-chained audit log. Ships adapters for MCP servers, LangChain-style tools
-  and provider function calls, so gating a call needs no new dependency. Weakening either
-  invariant fails six tests.
+  and provider function calls, so gating a call needs no new dependency. Disabling either
+  invariant fails three tests; disabling both fails six.
 - [**mcpaudit**](https://github.com/sushant-me/mcpaudit) — audits an MCP server's tool
   declarations before you connect: reserved-name collisions, instruction-shaped text,
   invisible Unicode **with the tag-block payload decoded**, look-alike names, destructive
