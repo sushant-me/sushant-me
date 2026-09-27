@@ -6,6 +6,8 @@
 
 Bhaktapur, Nepal · [sushant.poudel2028@gmail.com](mailto:sushant.poudel2028@gmail.com) · [LinkedIn](https://linkedin.com/in/sushant-poudel2028) · [sushantpoudel2028.com.np](https://sushantpoudel2028.com.np) · **[Work with me →](https://sushant-me.github.io/hire/)**
 
+*For editors and journalists: **[press & author page](https://sushantpoudel2028.com.np/press)** — bio, headshot, and the topics I can write about or comment on.*
+
 [![claims: verified](https://github.com/sushant-me/reputation/actions/workflows/verify.yml/badge.svg)](https://github.com/sushant-me/reputation)
 [![HackingHub #1](https://img.shields.io/badge/HackingHub-Q3%202026%20%231-0d6b5f?style=flat-square)](https://app.hackinghub.io/p/nofear976)
 
