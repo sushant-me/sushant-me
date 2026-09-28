@@ -112,7 +112,7 @@ prototype that works through rubble without cameras, and an offline payment wall
 
 ## Tools, at their current release
 
-- [agentbound](https://github.com/sushant-me/agentbound) — [v0.1.12](https://github.com/sushant-me/agentbound/releases/tag/v0.1.12) · tool-boundary bugs in agent frameworks (Python, TypeScript, YAML)
+- [agentbound](https://github.com/sushant-me/agentbound) — [v0.1.15](https://github.com/sushant-me/agentbound/releases/tag/v0.1.15) · tool-boundary bugs in agent frameworks (Python, TypeScript, JavaScript, Go, Java, GitHub Actions). Precision **1.00** measured against 14 real frameworks, and the four false-positive modes found getting there are written down in [SURVEY.md](https://github.com/sushant-me/agentbound/blob/master/SURVEY.md)
 - [mcp-nameguard](https://github.com/sushant-me/mcp-nameguard) — [v0.4.8](https://github.com/sushant-me/mcp-nameguard/releases/tag/v0.4.8) · MCP tool names against the ones frameworks reserve
 - [trajectorycheck](https://github.com/sushant-me/trajectorycheck) — [v0.1.2](https://github.com/sushant-me/trajectorycheck/releases/tag/v0.1.2) · grades whole agent trajectories, with a deliberately broken agent as a control
 
