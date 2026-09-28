@@ -10,6 +10,7 @@ Bhaktapur, Nepal · [sushant.poudel2028@gmail.com](mailto:sushant.poudel2028@gma
 
 [![claims: verified](https://github.com/sushant-me/reputation/actions/workflows/verify.yml/badge.svg)](https://github.com/sushant-me/reputation)
 [![HackingHub #1](https://img.shields.io/badge/HackingHub-Q3%202026%20%231-0d6b5f?style=flat-square)](https://app.hackinghub.io/p/nofear976)
+[![NullOrigin CTF 2026 — 2nd, South Asia](https://img.shields.io/badge/NullOrigin%20CTF%202026-2nd%20%C2%B7%20South%20Asia-8a1f1f?style=flat-square)](https://creds.cyberhx.com)
 
 </div>
 
