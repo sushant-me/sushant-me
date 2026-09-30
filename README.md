@@ -10,7 +10,7 @@ Bhaktapur, Nepal · [sushant.poudel2028@gmail.com](mailto:sushant.poudel2028@gma
 
 [![claims: verified](https://github.com/sushant-me/reputation/actions/workflows/verify.yml/badge.svg)](https://github.com/sushant-me/reputation)
 [![HackingHub #1](https://img.shields.io/badge/HackingHub-Q3%202026%20%231-0d6b5f?style=flat-square)](https://app.hackinghub.io/p/nofear976)
-[![NullOrigin CTF 2026 — 2nd, South Asia](https://img.shields.io/badge/NullOrigin%20CTF%202026-2nd%20%C2%B7%20South%20Asia-8a1f1f?style=flat-square)](https://creds.cyberhx.com)
+[![NullOrigin CTF 2026 — 1st, Grand Finale](https://img.shields.io/badge/NullOrigin%20CTF%202026-1st%20%C2%B7%20Grand%20Finale-8a1f1f?style=flat-square)](https://creds.cyberhx.com)
 
 </div>
 
@@ -26,7 +26,7 @@ the result of that check, not decoration.
 | what | where it can be checked |
 |---|---|
 | **Rank #1, HackingHub Q3 2026** global leaderboard — 177 flags, 18,125 XP, 1 gold + 2 silver + 2 bronze awards (next account: 97 flags) | [public leaderboard API](https://api.hackinghub.io/leaderboard) |
-| **NullOrigin CTF 2026 — Grand Finale qualifier, placed 2nd in South Asia** — an international 24-hour CTF. Qualified for the Grand Finale and competed; Grand Finale Certificate issued **26 September 2026** (ID `NO-2026-GF-229CF4`), following the participation certificate of 19 September 2026 (ID `NO-2026-88FEE0`) | [verify the certificate](https://creds.cyberhx.com) |
+| **NullOrigin CTF 2026 — 1st place, Grand Finale** — international 24-hour CTF; placed **2nd in South Asia** in the qualifier, then **won the eight-team Grand Finale with team `roamers`: 16,850 pts, 40 of 42 challenges solved**, window closed 25 September 2026. Grand Finale certificate (ID `NO-2026-GF-229CF4`) preceded by the participation certificate of 19 September 2026 (ID `NO-2026-88FEE0`) | [verify the certificate](https://creds.cyberhx.com) |
 | **7th place, Cyber League Major — invited to the onsite Cyber League Playoffs** (10 October 2026) | invitation from the organisers, on request |
 | **Security patch authored, merged, then generalised into `google/go-github`** — my [#4556](https://github.com/google/go-github/pull/4556) refused a release-asset upload whose URL pointed off-host; maintainer `gmlewis` replaced it the next day with the broader [#4564](https://github.com/google/go-github/pull/4564) — *"credentials are sent only to configured origins"* — which is what master implements today and which carries the commit *"Address feedback from sushant-me"* | [#4556](https://github.com/google/go-github/pull/4556) · [#4564](https://github.com/google/go-github/pull/4564) |
 | **Named in `google/go-github`'s AUTHORS file** — the maintainer offered this route for my security patch after the squash-merge lost the commit; I opened [#4579](https://github.com/google/go-github/pull/4579) and he merged it the same day, so `Sushant Poudel <sushant.poudel2028@gmail.com>` is on `master` in [AUTHORS](https://github.com/google/go-github/blob/master/AUTHORS) | [#4579](https://github.com/google/go-github/pull/4579) |
