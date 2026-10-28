@@ -63,6 +63,9 @@ composite GitHub Actions, so the same check runs where the decision is made:
     lock: mcpaudit.lock.json    # committed when the server was reviewed
 ```
 
+**The whole set on one page:** [sushant-me.github.io/tooling](https://sushant-me.github.io/tooling/)
+— what each tool is, its install line, the Action snippet, and what it cannot do.
+
 **Writing, if you want the method:**
 [Structured output made my safety evaluator less safe](https://sushantpoudel2028.com.np/writing/structured-output-made-it-less-safe) ·
 [My own benchmark said 1.000. Real code said 0.14.](https://sushantpoudel2028.com.np/writing/my-benchmark-said-1000-real-code-said-014) ·
