@@ -63,12 +63,11 @@ this page.
 ## GitHub activity
 
 <a href="https://github.com/sushant-me?tab=contributions"><img src="https://streak-stats.demolab.com?user=sushant-me&theme=github-dark&hide_border=true" alt="Contribution streak" width="495"></a>
-<a href="https://github.com/sushant-me?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushant-me&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Most used languages" width="360"></a>
 
 <sub>Rendered live from the contribution graph by
-<a href="https://github.com/DenverCoder1/github-readme-streak-stats">streak-stats</a> and
-<a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a> — not numbers I
-type in, so they cannot go stale here.</sub>
+<a href="https://github.com/DenverCoder1/github-readme-streak-stats">streak-stats</a> — not a number I
+type in, so it cannot go stale here. A second card (most-used languages) was removed rather than
+swapped for another public instance: its host returned 503 for three days running.</sub>
 
 
 </div>
