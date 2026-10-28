@@ -53,6 +53,16 @@ this page.
 | [**trajectorycheck**](https://github.com/sushant-me/trajectorycheck) | Grades whole agent trajectories — tool calls, arguments, side effects and injected instructions — with a deliberately broken agent as a control. |
 | [**reputation**](https://github.com/sushant-me/reputation) | The ledger this page is checked against: each claim, its public source, and a weekly check that turns red when one stops being true. |
 
+Four of these — `agentbound`, `mcpaudit`, `mcp-nameguard` and `tool-boundary-corpus` — are also
+composite GitHub Actions, so the same check runs where the decision is made:
+
+```yaml
+- uses: sushant-me/mcpaudit@v1
+  with:
+    source: tools.json          # the payload your client receives from tools/list
+    lock: mcpaudit.lock.json    # committed when the server was reviewed
+```
+
 **Writing, if you want the method:**
 [Structured output made my safety evaluator less safe](https://sushantpoudel2028.com.np/writing/structured-output-made-it-less-safe) ·
 [My own benchmark said 1.000. Real code said 0.14.](https://sushantpoudel2028.com.np/writing/my-benchmark-said-1000-real-code-said-014) ·
