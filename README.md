@@ -1,20 +1,66 @@
 <div align="center">
 
-# Sushant Poudel
+<img src="https://raw.githubusercontent.com/sushant-me/sushant-me/main/assets/banner.svg" alt="Sushant Poudel — AI security engineer. I find where agent tool boundaries leak, then close them. Rank 1, HackingHub Q3 2026; 1st place, NullOrigin CTF 2026 Grand Finale; named in google/go-github's AUTHORS file." width="100%" />
 
 **AI security engineer — I find where agent tool boundaries leak, then close them.**
 
 Bhaktapur, Nepal · [sushant.poudel2028@gmail.com](mailto:sushant.poudel2028@gmail.com) · [LinkedIn](https://linkedin.com/in/sushant-poudel2028) · [sushantpoudel2028.com.np](https://sushantpoudel2028.com.np) · **[Work with me →](https://sushant-me.github.io/hire/)**
 
-*For editors and journalists: **[press & author page](https://sushantpoudel2028.com.np/press)** — bio, headshot, and the topics I can write about or comment on.*
-
 [![claims: verified](https://github.com/sushant-me/reputation/actions/workflows/verify.yml/badge.svg)](https://github.com/sushant-me/reputation)
 [![HackingHub #1](https://img.shields.io/badge/HackingHub-Q3%202026%20%231-0d6b5f?style=flat-square)](https://app.hackinghub.io/p/nofear976)
 [![NullOrigin CTF 2026 — 1st, Grand Finale](https://img.shields.io/badge/NullOrigin%20CTF%202026-1st%20%C2%B7%20Grand%20Finale-8a1f1f?style=flat-square)](https://creds.cyberhx.com)
 
-<br/>
+<sub>For editors and journalists: **[press & author page](https://sushantpoudel2028.com.np/press)** — bio, headshot, and the topics I can write about or comment on.</sub>
 
-### GitHub activity
+</div>
+
+**Who.** Sushant Poudel — AI security engineer in Bhaktapur, Nepal, and a final-year Computer
+Engineering student at Nepal Engineering College.
+
+**What I build.** Detectors, audits and fail-closed gates for the places where AI-agent
+tools meet the world — [agentbound](https://github.com/sushant-me/agentbound),
+[mcpaudit](https://github.com/sushant-me/mcpaudit),
+[policygate](https://github.com/sushant-me/policygate),
+[mcp-nameguard](https://github.com/sushant-me/mcp-nameguard) and
+[trajectorycheck](https://github.com/sushant-me/trajectorycheck).
+
+**Hardest proof.** #1 on HackingHub's Q3 2026 global leaderboard · winner of the NullOrigin CTF 2026
+Grand Finale · a security patch merged into `google/go-github`, where my name is in its
+[AUTHORS](https://github.com/google/go-github/blob/master/AUTHORS) file · a published paper with a
+[DOI](https://doi.org/10.65091/icicset.v3i1.75).
+
+**Work with me.** **[hire page →](https://sushant-me.github.io/hire/)** or
+[sushant.poudel2028@gmail.com](mailto:sushant.poudel2028@gmail.com).
+
+Every number on this page is re-checked against its public source once a week by
+[**sushant-me/reputation**](https://github.com/sushant-me/reputation) — a repository that lists each
+claim I make, names where it came from, and turns red the moment one stops being true. That badge is
+the result of that check, not decoration.
+
+---
+
+## Start here
+
+Six things worth opening first — the five tools built for this bug class, and the ledger that checks
+this page.
+
+| repository | what it is |
+|---|---|
+| [**agentbound**](https://github.com/sushant-me/agentbound) | Static detection of tool-boundary bugs in agent frameworks — precision **1.00** measured against 14 real frameworks, and the four false-positive modes found getting there are written down. |
+| [**mcpaudit**](https://github.com/sushant-me/mcpaudit) | Audits an MCP server's tool declarations before you connect, then pins them in a lock file — so a description that changes after approval is reported as the tool-poisoning shape it is. |
+| [**policygate**](https://github.com/sushant-me/policygate) | A fail-closed gate for agent tool calls: a model can deny or escalate but **cannot authorise**, and every decision lands in a hash-chained audit log. |
+| [**mcp-nameguard**](https://github.com/sushant-me/mcp-nameguard) | Checks an MCP server's tool names against the ones agent frameworks reserve for themselves. |
+| [**trajectorycheck**](https://github.com/sushant-me/trajectorycheck) | Grades whole agent trajectories — tool calls, arguments, side effects and injected instructions — with a deliberately broken agent as a control. |
+| [**reputation**](https://github.com/sushant-me/reputation) | The ledger this page is checked against: each claim, its public source, and a weekly check that turns red when one stops being true. |
+
+**Writing, if you want the method:**
+[Structured output made my safety evaluator less safe](https://sushantpoudel2028.com.np/writing/structured-output-made-it-less-safe) ·
+[My own benchmark said 1.000. Real code said 0.14.](https://sushantpoudel2028.com.np/writing/my-benchmark-said-1000-real-code-said-014) ·
+[A linter that a spelling could get past](https://sushantpoudel2028.com.np/writing/a-linter-that-a-spelling-could-get-past).
+
+<div align="center">
+
+## GitHub activity
 
 <a href="https://github.com/sushant-me?tab=contributions"><img src="https://streak-stats.demolab.com?user=sushant-me&theme=github-dark&hide_border=true" alt="Contribution streak" width="495"></a>
 <a href="https://github.com/sushant-me?tab=contributions"><img src="https://github-readme-stats.vercel.app/api?username=sushant-me&show_icons=true&theme=github_dark&hide_border=true&hide=stars,issues&rank_icon=github&include_all_commits=true" alt="GitHub statistics" width="495"></a>
@@ -25,12 +71,8 @@ Bhaktapur, Nepal · [sushant.poudel2028@gmail.com](mailto:sushant.poudel2028@gma
 <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a> — not numbers I
 type in, so they cannot go stale here.</sub>
 
-</div>
 
-Every number on this page is re-checked against its public source once a week by
-[**sushant-me/reputation**](https://github.com/sushant-me/reputation) — a repository that lists each
-claim I make, names where it came from, and turns red the moment one stops being true. That badge is
-the result of that check, not decoration.
+</div>
 
 ---
 
@@ -121,20 +163,25 @@ prototype that works through rubble without cameras, and an offline payment wall
 
 ## Writing
 
+- [**Structured output made my safety evaluator less safe**](https://sushantpoudel2028.com.np/writing/structured-output-made-it-less-safe) — the counter-intuitive result from my paper: JSON-constrained output *without* a reasoning field approved **46.2%** of proposals the policy would have blocked, against **17.2%** for free-form, and it was 5.5× faster — the trade a team picks under a latency budget. Includes the parts that hurt: the best arm still approved 6 of 208 irreversible hard denials.
+- [**My own benchmark said 1.000. Real code said 0.14.**](https://sushantpoudel2028.com.np/writing/my-benchmark-said-1000-real-code-said-014) — the labelled corpus I wrote had just taken my scanner's precision to 1.000, and I wrote the corpus, so it only contained mistakes I had already thought of. Against `google/adk-python` the same scanner reported **21 production findings, 19 of them wrong** — every one a constant containing "tool" and "name" without reserving anything. Two fixes were tried and both failed on the same real code, because **a constant list has a direction and only the name says which way it points**. Also records the 21 findings that were available, wrong, and not published.
 - [**A linter that a spelling could get past**](https://sushantpoudel2028.com.np/writing/a-linter-that-a-spelling-could-get-past) — a code-injection detection bypass in `sisakulint`, a GitHub Actions linter other repositories run in CI as their own gate. The two forms `github.event.pull_request.title` and `github['event']['pull_request']['title']` are the same expression in Actions, and only the first was flagged — **one bracket at any position was enough, including a lone one on the final property**, so it was reachable by accident rather than only by evasion. Root cause traced through the visitor state to `parser.go:176`, where `StringNode.Value` keeps the literal's delimiters while the type's own comment says they are removed, so the checker asked for a property named `'title'`. Fixed at the use site, with a regression test that fails on the unpatched source and a second sink confirmed. Also records the audit of the shell taint layer that found nothing, the invalid-syntax false alarm I did not file, and the first version of the test that proved nothing at all.
-- [**AI safety — positions held, and the evidence for each**](https://sushantpoudel2028.com.np/writing/ai-safety-positions-and-the-evidence-for-each) — four positions on technical AI safety, each attached to a result rather than to an interest, and each naming its source and its limit. The first is the one I filed against **my own** project rather than found in someone else's: a map error handler that is wired, styled and correct, and whose path had **never once executed**. States where a claim is deliberately withheld from the machine-checked ledger because it is not publicly disclosed, and why publishing it there would have made the rest of that ledger worth less. *"It is easy to hold this position about other people's code and awkward to hold it about your own."*
 
+<details>
+<summary><b>The rest of the writing — every remaining piece, with what it found</b></summary>
+
+- [**AI safety — positions held, and the evidence for each**](https://sushantpoudel2028.com.np/writing/ai-safety-positions-and-the-evidence-for-each) — four positions on technical AI safety, each attached to a result rather than to an interest, and each naming its source and its limit. The first is the one I filed against **my own** project rather than found in someone else's: a map error handler that is wired, styled and correct, and whose path had **never once executed**. States where a claim is deliberately withheld from the machine-checked ledger because it is not publicly disclosed, and why publishing it there would have made the rest of that ledger worth less. *"It is easy to hold this position about other people's code and awkward to hold it about your own."*
 - [**Nineteen findings, four of them wrong, four different ways**](https://sushantpoudel2028.com.np/writing/nineteen-findings-four-wrong-four-ways) — my detector run against **14 real agent frameworks**. It reported 19 findings and four were false, in four *different* mechanisms: three patterns matched anywhere in a file let a JSON schema generator be read as a confirmation gate; a regex anchored on the `{` inside a string literal spanned thirteen lines to an unrelated loop; a **CRITICAL** claim against pydantic-ai missed a gate written as `(A \|\| B) && gate`; and a dedup accumulator was mistaken for a security guard. Every failure was **structural, not lexical** — the regexes matched what they were written to match, and what was missing was any notion of scope. Precision 0.79 → 1.00, no true positive lost, and the fix is 140 tests.
 - [**Two true facts I did not join up: an IPv6 loopback bypass in SunshineCTF's SiteCheck**](https://sushantpoudel2028.com.np/writing/two-true-facts-and-a-loopback-bypass) — a 463-point SSRF challenge I got wrong for six rounds, and the two conclusions that were each *true* and each cost me the challenge. The internal-address denylist **enumerates IPv4 spellings only**, so `http://[::1]:3000/profile#clearance` reaches the app's own loopback listener — served as the built-in `admin` identity — while the `#clearance` anchor steps over the 520px and 820px spacers that keep the flag below the fixed snapshot. Also records the DoS I found and deliberately did not use.
-- [**My own benchmark said 1.000. Real code said 0.14.**](https://sushantpoudel2028.com.np/writing/my-benchmark-said-1000-real-code-said-014) — the labelled corpus I wrote had just taken my scanner's precision to 1.000, and I wrote the corpus, so it only contained mistakes I had already thought of. Against `google/adk-python` the same scanner reported **21 production findings, 19 of them wrong** — every one a constant containing "tool" and "name" without reserving anything. Two fixes were tried and both failed on the same real code, because **a constant list has a direction and only the name says which way it points**. Also records the 21 findings that were available, wrong, and not published.
 - [**Four checks that ran on data something else had already rewritten**](https://sushantpoudel2028.com.np/writing/four-checks-that-ran-on-rewritten-data) — the four published advisories and the shape they share: the check ran on data an earlier line had already transformed. A regex without `DOTALL` turned `send_\nemail` into an allowed call in a policy gate; an unbounded read let a hostile MCP server kill the scanner inspecting it; a masker blanked the one-line constant a rule matched on; a Unicode range list covered 16 of 256 variation selectors. Plus the finding that mattered more — the fixes were not reaching users, because the documented `@v1` action tag was four releases stale.
 - [**The check that could not see what it was checking**](https://sushantpoudel2028.com.np/writing/the-check-that-could-not-see-what-it-was-checking) — one defect, seven times, across my own tools and then the tooling that verifies them: a check reads a reduced form of its input and reports success when the reduction removed what it was looking for. A PDF guard that compared only numbers and missed five stale city names; a reproducibility check that could not see a 14.5% change in the parser it exists to protect. Includes the measured effect on a published metric — every structured condition unchanged to the digit, the headline intact.
 - [**A number nothing recomputes**](https://sushantpoudel2028.com.np/writing/a-number-nothing-recomputes) — ten wrong facts in things I had already published (a CV, a profile, a hire page, a paper's README, a released product), each true when written, and none of them visible to the claim verifier I already had. The fix is ~370 lines: forbidden strings carrying their reasons, required corrections so a fix-by-deletion fails, counts derived from the source file, and coverage asserted so a run that read nothing cannot pass. Includes the exemption I refused to add, and the three times the post failed its own check.
 - [**A benchmark found a bug in my own detector**](https://sushantpoudel2028.com.np/writing/a-benchmark-found-a-bug-in-my-own-detector) — I built a labelled corpus to stop making unmeasured claims and it found a false positive in my own scanner: precision **0.750 → 1.000**, with the failing case named in CI rather than deleted. The benchmark was wrong twice before the detector was, the harness assumed its author's output format, and the guard added for the fix surfaced a third defect — a release that reported the wrong version. Three defects, one shape: a number nothing checked.
-- [**Structured output made my safety evaluator less safe**](https://sushantpoudel2028.com.np/writing/structured-output-made-it-less-safe) — the counter-intuitive result from my paper: JSON-constrained output *without* a reasoning field approved **46.2%** of proposals the policy would have blocked, against **17.2%** for free-form, and it was 5.5× faster — the trade a team picks under a latency budget. Includes the parts that hurt: the best arm still approved 6 of 208 irreversible hard denials.
 - [**A sample agent security review**](https://github.com/sushant-me/agent-review-sample) — a deliberately vulnerable agent I wrote, and the deliverable I would return for it: four findings (tool shadowing, a fail-open confirmation gate, indirect prompt injection, path traversal) with reproductions, fixes, and a section stating what was *not* tested. `python3 demo.py` reproduces all four.
 - [**A sample MCP server audit**](https://github.com/sushant-me/mcp-audit-sample) — a deliberately risky vendor MCP server and the written audit I would return: a critical name collision that displaces a framework primitive, an instruction hidden in the **Unicode tag block**, a description telling the model to add account credentials to its summary, a destructive tool declaring `readOnlyHint`, and a look-alike name pair. Ten findings, two clean tools, the generated policy the gate enforces, a lock file that catches the tool-poisoning shape, and a `demo.py` that exits non-zero when a finding stops reproducing.
 - [**The crash that wasn't**](https://sushantpoudel2028.com.np/writing/the-crash-that-wasnt) — a memory-safety test that passed locally and segfaulted in CI, the AddressSanitizer trace that showed my patch fixed the wrong bug, and the pull request I closed on myself afterwards. *"A passing memory-safety test proves almost nothing unless it runs under a sanitizer."*
+
+</details>
 
 ## Tools, at their current release
 
@@ -153,6 +200,7 @@ regression test, published as GitHub security advisories rather than only as rel
 - **[GHSA-62f4-h552-54wc](https://github.com/sushant-me/mcpaudit/security/advisories/GHSA-62f4-h552-54wc)** — `mcpaudit`: the invisible-character ranges covered 16 of 256 variation selectors, and the omission also survived the helper meant to show what text really contains.
 
 CVE identifiers requested from GitHub's CNA.
+
 
 ## Certifications
 

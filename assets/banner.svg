@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="banner-title banner-desc">
+  <title id="banner-title">Sushant Poudel — AI security engineer</title>
+  <desc id="banner-desc">I find where agent tool boundaries leak, then close them. Rank 1, HackingHub Q3 2026. 1st place, NullOrigin CTF 2026 Grand Finale. Named in google/go-github's AUTHORS file.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#0E1A2B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.18" r="0.62">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#22314A" stroke-width="1" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <!-- canvas -->
+  <rect width="1280" height="340" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="20" fill="url(#grid)"/>
+  <rect width="1280" height="340" rx="20" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#accent)"/>
+
+  <!-- identity -->
+  <rect x="64" y="63" width="12" height="12" rx="3" fill="#2DD4BF"/>
+  <text x="90" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="2.6" fill="#5EEAD4">AI SECURITY ENGINEER · BHAKTAPUR, NEPAL</text>
+
+  <text x="62" y="156" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-1" fill="#F8FAFC">Sushant Poudel</text>
+
+  <rect x="64" y="176" width="120" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <text x="64" y="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#C9D6E8">I find where agent tool boundaries leak, then close them.</text>
+
+  <!-- credibility marks -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#DCE7F5">
+    <g>
+      <rect x="64" y="250" width="228" height="40" rx="20" fill="#111C2E" stroke="#24344D"/>
+      <circle cx="87" cy="270" r="4" fill="#2DD4BF"/>
+      <text x="101" y="275">#1 HackingHub Q3 2026</text>
+    </g>
+    <g>
+      <rect x="304" y="250" width="252" height="40" rx="20" fill="#111C2E" stroke="#24344D"/>
+      <circle cx="327" cy="270" r="4" fill="#F59E0B"/>
+      <text x="341" y="275">1st · NullOrigin CTF 2026</text>
+    </g>
+    <g>
+      <rect x="568" y="250" width="242" height="40" rx="20" fill="#111C2E" stroke="#24344D"/>
+      <circle cx="591" cy="270" r="4" fill="#38BDF8"/>
+      <text x="605" y="275">google/go-github AUTHORS</text>
+    </g>
+  </g>
+
+  <!-- the boundary: a leak, and the seal over it -->
+  <g>
+    <!-- boundary with a gap on its right edge -->
+    <path d="M 852 54 H 1174 A 22 22 0 0 1 1196 76 V 150 M 1196 198 V 266 A 22 22 0 0 1 1174 288 H 852 A 22 22 0 0 1 830 266 V 76 A 22 22 0 0 1 852 54"
+          fill="none" stroke="#33455F" stroke-width="2" stroke-dasharray="8 8" stroke-linecap="round"/>
+
+    <!-- tools wired into the agent -->
+    <path d="M 921 114 H 952 V 174 H 978 M 921 170 H 978 M 921 226 H 952 V 174 H 978"
+          fill="none" stroke="#2C3E58" stroke-width="2"/>
+    <g fill="#121D30" stroke="#2B3D57">
+      <rect x="857" y="98" width="64" height="32" rx="8"/>
+      <rect x="857" y="154" width="64" height="32" rx="8"/>
+      <rect x="857" y="210" width="64" height="32" rx="8"/>
+    </g>
+    <g fill="#38BDF8" opacity="0.85">
+      <circle cx="873" cy="114" r="3.5"/>
+      <circle cx="873" cy="170" r="3.5"/>
+      <circle cx="873" cy="226" r="3.5"/>
+    </g>
+
+    <!-- agent node -->
+    <rect x="978" y="144" width="72" height="60" rx="14" fill="#0E2230" stroke="url(#accent)" stroke-width="2"/>
+    <g fill="#2DD4BF" opacity="0.9">
+      <circle cx="1001" cy="163" r="3.2"/>
+      <circle cx="1014" cy="163" r="3.2"/>
+      <circle cx="1027" cy="163" r="3.2"/>
+      <circle cx="1001" cy="185" r="3.2"/>
+      <circle cx="1014" cy="185" r="3.2"/>
+      <circle cx="1027" cy="185" r="3.2"/>
+    </g>
+
+    <!-- the leak escaping toward the gap -->
+    <path d="M 1050 174 C 1096 174 1126 180 1226 152" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="1226" cy="152" r="5" fill="#F59E0B"/>
+
+    <!-- the seal -->
+    <rect x="1188" y="144" width="16" height="62" rx="8" fill="url(#accent)"/>
+    <path d="M 1192 174 L 1195.5 178 L 1201 170" fill="none" stroke="#06202A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="64" y="319" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#6B7C93">Every claim re-checked weekly against its public source — github.com/sushant-me/reputation</text>
+</svg>
