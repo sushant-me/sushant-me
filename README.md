@@ -63,7 +63,6 @@ this page.
 ## GitHub activity
 
 <a href="https://github.com/sushant-me?tab=contributions"><img src="https://streak-stats.demolab.com?user=sushant-me&theme=github-dark&hide_border=true" alt="Contribution streak" width="495"></a>
-<a href="https://github.com/sushant-me?tab=contributions"><img src="https://github-readme-stats.vercel.app/api?username=sushant-me&show_icons=true&theme=github_dark&hide_border=true&hide=stars,issues&rank_icon=github&include_all_commits=true" alt="GitHub statistics" width="495"></a>
 <a href="https://github.com/sushant-me?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushant-me&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Most used languages" width="360"></a>
 
 <sub>Rendered live from the contribution graph by
