@@ -154,6 +154,14 @@ regression test, published as GitHub security advisories rather than only as rel
 
 CVE identifiers requested from GitHub's CNA.
 
+## Certifications
+
+Nineteen **Internet Society** completion certificates, issued **27 October 2026** — six from the
+Pre-Fellowship e-Learning tracks (Internet Policy & Mobilization, Internet Connectivity, Internet
+Safety & Security) and thirteen from the related ISOC courses on Internet Governance, Encryption,
+community networking and programme skills. Each carries its Accredible credential ID and a public
+verification link; the full list is in [**certifications**](https://github.com/sushant-me/certifications).
+
 ---
 
 <div align="center">
