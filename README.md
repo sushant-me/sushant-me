@@ -68,6 +68,7 @@ composite GitHub Actions, so the same check runs where the decision is made:
 — what each tool is, its install line, the Action snippet, and what it cannot do.
 
 **Writing, if you want the method:**
+[Four fixes, four ways of proving them](https://sushantpoudel2028.com.np/writing/four-fixes-four-ways-of-proving-them) ·
 [Two hundred and twenty-three alerts, and the ones I would not close](https://sushantpoudel2028.com.np/writing/two-hundred-and-twenty-three-alerts) ·
 [My detector missed the bug in my own sample](https://sushantpoudel2028.com.np/writing/my-detector-missed-my-own-sample) ·
 [Two defects my tests could not see, found by a bot](https://sushantpoudel2028.com.np/writing/two-defects-my-tests-could-not-see).
