@@ -46,7 +46,7 @@ this page.
 
 | repository | what it is |
 |---|---|
-| [**agentbound**](https://github.com/sushant-me/agentbound) | Static detection of tool-boundary bugs in agent frameworks — precision **1.00** measured against 14 real frameworks, and the four false-positive modes found getting there are written down. |
+| [**agentbound**](https://github.com/sushant-me/agentbound) | Static detection of tool-boundary bugs in agent frameworks — precision **0.94** across the 16 frameworks scanned (1.00 on the first 14 after four false-positive modes were fixed), and the one false positive that cannot be fixed without a false negative is kept and written down. |
 | [**mcpaudit**](https://github.com/sushant-me/mcpaudit) | Audits an MCP server's tool declarations before you connect, then pins them in a lock file — so a description that changes after approval is reported as the tool-poisoning shape it is. |
 | [**policygate**](https://github.com/sushant-me/policygate) | A fail-closed gate for agent tool calls: a model can deny or escalate but **cannot authorise**, and every decision lands in a hash-chained audit log. |
 | [**mcp-nameguard**](https://github.com/sushant-me/mcp-nameguard) | Checks an MCP server's tool names against the ones agent frameworks reserve for themselves. |
