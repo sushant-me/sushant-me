@@ -156,7 +156,7 @@ prototype that works through rubble without cameras, and an offline payment wall
   tools declaring `readOnlyHint`. Pins the declarations in a lock file, so a description
   that changes after you approve it is reported as the tool-poisoning shape it is.
 - [**tool-boundary-corpus**](https://github.com/sushant-me/tool-boundary-corpus) — a labelled
-  corpus of 23 agent tool-boundary cases and a detector-agnostic harness, because a claim about
+  corpus of 24 agent tool-boundary cases and a detector-agnostic harness, because a claim about
   a scanner is worth little without precision and recall. It scores three kinds: tool
   declarations, framework source, and **declaration drift** — a rug pull, which needs two states
   of the same server to be visible at all, so those cases carry the declarations as approved and
