@@ -41,7 +41,7 @@ the result of that check, not decoration.
 
 ## Start here
 
-Six things worth opening first — the five tools built for this bug class, and the ledger that checks
+Seven things worth opening first — the six tools built for this bug class, and the ledger that checks
 this page.
 
 | repository | what it is |
@@ -51,6 +51,7 @@ this page.
 | [**policygate**](https://github.com/sushant-me/policygate) | A fail-closed gate for agent tool calls: a model can deny or escalate but **cannot authorise**, and every decision lands in a hash-chained audit log. |
 | [**mcp-nameguard**](https://github.com/sushant-me/mcp-nameguard) | Checks an MCP server's tool names against the ones agent frameworks reserve for themselves. |
 | [**trajectorycheck**](https://github.com/sushant-me/trajectorycheck) | Grades whole agent trajectories — tool calls, arguments, side effects and injected instructions — with a deliberately broken agent as a control. |
+| [**tool-boundary-corpus**](https://github.com/sushant-me/tool-boundary-corpus) | The labelled corpus and detector-agnostic harness behind those precision numbers — so a score can be compared with one measured last year, or by somebody else, on a detector that does not exist yet. |
 | [**reputation**](https://github.com/sushant-me/reputation) | The ledger this page is checked against: each claim, its public source, and a weekly check that turns red when one stops being true. |
 
 Four of these — `agentbound`, `mcpaudit`, `mcp-nameguard` and `tool-boundary-corpus` — are also
