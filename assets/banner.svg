@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="banner-title banner-desc">
   <title id="banner-title">Sushant Poudel — AI security engineer</title>
-  <desc id="banner-desc">I find where agent tool boundaries leak, then close them. Rank 1, HackingHub Q3 2026. 1st place, NullOrigin CTF 2026 Grand Finale. Named in google/go-github's AUTHORS file.</desc>
+  <desc id="banner-desc">I find where agent tool boundaries leak, then close them. HackingHub Elite, #7 on the all-time leaderboard. NullOrigin CTF 2026 grand finalist. Named in google/go-github's AUTHORS file.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -39,19 +39,19 @@
   <!-- credibility marks -->
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#DCE7F5">
     <g>
-      <rect x="64" y="250" width="228" height="40" rx="20" fill="#111C2E" stroke="#24344D"/>
+      <rect x="64" y="250" width="238" height="40" rx="20" fill="#111C2E" stroke="#24344D"/>
       <circle cx="87" cy="270" r="4" fill="#2DD4BF"/>
-      <text x="101" y="275">#1 HackingHub Q3 2026</text>
+      <text x="101" y="275">HackingHub #7 · all-time</text>
     </g>
     <g>
-      <rect x="304" y="250" width="252" height="40" rx="20" fill="#111C2E" stroke="#24344D"/>
-      <circle cx="327" cy="270" r="4" fill="#F59E0B"/>
-      <text x="341" y="275">1st · NullOrigin CTF 2026</text>
+      <rect x="314" y="250" width="282" height="40" rx="20" fill="#111C2E" stroke="#24344D"/>
+      <circle cx="337" cy="270" r="4" fill="#F59E0B"/>
+      <text x="351" y="275">NullOrigin CTF 2026 finalist</text>
     </g>
     <g>
-      <rect x="568" y="250" width="242" height="40" rx="20" fill="#111C2E" stroke="#24344D"/>
-      <circle cx="591" cy="270" r="4" fill="#38BDF8"/>
-      <text x="605" y="275">google/go-github AUTHORS</text>
+      <rect x="608" y="250" width="210" height="40" rx="20" fill="#111C2E" stroke="#24344D"/>
+      <circle cx="631" cy="270" r="4" fill="#38BDF8"/>
+      <text x="645" y="275">go-github AUTHORS</text>
     </g>
   </g>
 
