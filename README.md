@@ -81,7 +81,7 @@ Six tools on one page, with install lines and Action snippets: [sushant-me.githu
 
 I take on work where the deliverable can be checked: **MCP server and agent-tool-boundary audits**, threat models of an agent's action surface, memory-safety and fuzzing reviews of the C/C++ underneath, and full-stack builds where connectivity is not a given.
 
-**[Hire page →](https://sushant-me.github.io/hire/)** · [sushant.poudel2028@gmail.com](mailto:sushant.poudel2028@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sushant-poudel2028/) · [Press and author page](https://sushantpoudel2028.com.np/press)
+**[Hire page →](https://sushantpoudel2028.com.np/hire)** · **[CV (PDF) →](https://sushantpoudel2028.com.np/cv)** · [sushant.poudel2028@gmail.com](mailto:sushant.poudel2028@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sushant-poudel2028/) · [Press and author page](https://sushantpoudel2028.com.np/press)
 
 <div align="center">
 <sub>Every claim above links to the thing that proves it, and where a claim has a limit the limit is in the sentence. The subset that is machine-checked every week lives in <a href="https://github.com/sushant-me/reputation">reputation</a>. Work that cannot be linked — private bug-bounty reports, unpublished audits — is deliberately not listed here.</sub>
